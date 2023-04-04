@@ -53,6 +53,6 @@ jobs:
           chmod +x ./check-project-state.sh && ./check-project-state.sh
       - name: Prioritize GH Issue Comments
         run: |
-          curl -LJO https://raw.githubusercontent.com/whitesource-ft/ws-examples/main/Scripts/ghissue-eua.sh
+          curl -LJO https://raw.githubusercontent.com/kyal-mend-demo/Java-Demo/main/.github/scripts/ghissue-eua.sh
           chmod +x ./ghissue-eua.sh && ./ghissue-eua.sh
         
