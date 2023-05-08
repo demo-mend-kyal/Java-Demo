@@ -6,7 +6,7 @@
         "baseBranches": [],
         "enableLicenseViolations": "true",
         "enableSAST": "true",
-        "enableSASTRemediation": true
+        "enableSASTRemediation": "true"
     },
     "checkRunSettings": {
         "vulnerableCheckRunConclusionLevel": "failure",
